@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LY9-No-niF">
+                                <rect key="frame" x="40" y="164" width="240" height="240"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="WWB-le-ZjG"/>
+                                    <constraint firstAttribute="width" constant="240" id="mfP-XI-uB3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xbp-7m-2EI">
+                                <rect key="frame" x="15" y="20" width="106" height="106"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Uk-8L-eaa">
+                                <rect key="frame" x="151" y="20" width="106" height="106"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3dp-nk-ICS">
+                                <rect key="frame" x="12" y="413" width="106" height="106"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9eS-Fh-C6s">
+                                <rect key="frame" x="168" y="402" width="106" height="106"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LY9-No-niF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JQj-ME-Kkj"/>
+                            <constraint firstItem="LY9-No-niF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eT3-FJ-NIq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="layerView" destination="LY9-No-niF" id="mnP-x9-V6q"/>
+                        <outlet property="pencilfrou" destination="9eS-Fh-C6s" id="308-sF-B6Y"/>
+                        <outlet property="pencilone" destination="xbp-7m-2EI" id="JC0-R5-24F"/>
+                        <outlet property="pencilthree" destination="3dp-nk-ICS" id="TC9-qO-DtQ"/>
+                        <outlet property="penciltwo" destination="7Uk-8L-eaa" id="qUR-ft-zZp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="129"/>
+        </scene>
+    </scenes>
+</document>
