@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"layer图层";
     CALayer *blueLayer = [CALayer layer];
     
     blueLayer.frame = CGRectMake(50.0f, 50.0f, 100.0f, 100.0f);

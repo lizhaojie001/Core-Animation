@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"绘制阴影,不使用masksToBounds";
     
     self.layerView1.layer.cornerRadius = 20.0f;
     self.layerView2.layer.cornerRadius = 20.0f;

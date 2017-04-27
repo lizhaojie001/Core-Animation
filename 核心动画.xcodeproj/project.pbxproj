@@ -7,61 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F2591E41EAC0C16005C52E4 /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2591E31EAC0C16005C52E4 /* oneViewController.m */; };
-		3F2591E71EAC1991005C52E4 /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2591E61EAC1991005C52E4 /* twoViewController.m */; };
-		3F2591E91EAC19EC005C52E4 /* twoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2591E81EAC19EC005C52E4 /* twoViewController.xib */; };
-		3F8455BD1E9C0EA400DC97C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8455BC1E9C0EA400DC97C4 /* main.m */; };
-		3F8455C01E9C0EA400DC97C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8455BF1E9C0EA400DC97C4 /* AppDelegate.m */; };
-		3F8455C31E9C0EA400DC97C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8455C21E9C0EA400DC97C4 /* ViewController.m */; };
-		3F8455C61E9C0EA400DC97C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8455C41E9C0EA400DC97C4 /* Main.storyboard */; };
-		3F8455C81E9C0EA400DC97C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8455C71E9C0EA400DC97C4 /* Assets.xcassets */; };
-		3F8455CB1E9C0EA400DC97C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8455C91E9C0EA400DC97C4 /* LaunchScreen.storyboard */; };
-		3F8455D31E9C111900DC97C4 /* 16DF03F45563B770589882029F78272C.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8455D21E9C111900DC97C4 /* 16DF03F45563B770589882029F78272C.jpg */; };
-		3FD888D51E9C246E00C86390 /* 笔.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD888D11E9C246E00C86390 /* 笔.png */; };
-		3FD888D61E9C246E00C86390 /* 笔(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD888D21E9C246E00C86390 /* 笔(1).png */; };
-		3FD888D71E9C246E00C86390 /* 笔(2).png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD888D31E9C246E00C86390 /* 笔(2).png */; };
-		3FD888D81E9C246E00C86390 /* 笔(3).png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD888D41E9C246E00C86390 /* 笔(3).png */; };
-		3FD888DF1E9C31C600C86390 /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD888DD1E9C31C600C86390 /* ZJViewController.m */; };
-		3FD888E01E9C31C600C86390 /* ZJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD888DE1E9C31C600C86390 /* ZJViewController.xib */; };
-		3FF85E281EACB19C004E26B4 /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF85E261EACB19C004E26B4 /* threeViewController.m */; };
-		3FF85E291EACB19C004E26B4 /* threeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF85E271EACB19C004E26B4 /* threeViewController.xib */; };
-		3FF85E2D1EACC81E004E26B4 /* fourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF85E2B1EACC81E004E26B4 /* fourViewController.m */; };
-		3FF85E2E1EACC81E004E26B4 /* fourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF85E2C1EACC81E004E26B4 /* fourViewController.xib */; };
-		3FF85E311EACCF0D004E26B4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF85E301EACCF0D004E26B4 /* TableViewController.m */; };
+		3F4F9D3E1EAFE6CE00A62ED1 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D191EAFE6CE00A62ED1 /* 123.jpg */; };
+		3F4F9D3F1EAFE6CE00A62ED1 /* 16DF03F45563B770589882029F78272C.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D1A1EAFE6CE00A62ED1 /* 16DF03F45563B770589882029F78272C.jpg */; };
+		3F4F9D401EAFE6CE00A62ED1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F9D1C1EAFE6CE00A62ED1 /* AppDelegate.m */; };
+		3F4F9D411EAFE6CE00A62ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D1D1EAFE6CE00A62ED1 /* Assets.xcassets */; };
+		3F4F9D421EAFE6CE00A62ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D1E1EAFE6CE00A62ED1 /* LaunchScreen.storyboard */; };
+		3F4F9D431EAFE6CE00A62ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D201EAFE6CE00A62ED1 /* Main.storyboard */; };
+		3F4F9D441EAFE6CE00A62ED1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D221EAFE6CE00A62ED1 /* Info.plist */; };
+		3F4F9D451EAFE6CE00A62ED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F9D231EAFE6CE00A62ED1 /* main.m */; };
+		3F4F9D461EAFE6CE00A62ED1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F9D251EAFE6CE00A62ED1 /* TableViewController.m */; };
+		3F4F9D471EAFE6CE00A62ED1 /* 笔(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D261EAFE6CE00A62ED1 /* 笔(1).png */; };
+		3F4F9D481EAFE6CE00A62ED1 /* 笔(2).png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D271EAFE6CE00A62ED1 /* 笔(2).png */; };
+		3F4F9D491EAFE6CE00A62ED1 /* 笔(3).png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D281EAFE6CE00A62ED1 /* 笔(3).png */; };
+		3F4F9D4A1EAFE6CE00A62ED1 /* 笔.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D291EAFE6CE00A62ED1 /* 笔.png */; };
+		3F4F9D4B1EAFE6CE00A62ED1 /* fourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F9D2C1EAFE6CE00A62ED1 /* fourViewController.m */; };
+		3F4F9D4C1EAFE6CE00A62ED1 /* fourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D2D1EAFE6CE00A62ED1 /* fourViewController.xib */; };
+		3F4F9D4D1EAFE6CE00A62ED1 /* maskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F9D2F1EAFE6CE00A62ED1 /* maskViewController.m */; };
+		3F4F9D4E1EAFE6CE00A62ED1 /* maskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D301EAFE6CE00A62ED1 /* maskViewController.xib */; };
+		3F4F9D4F1EAFE6CE00A62ED1 /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F9D321EAFE6CE00A62ED1 /* oneViewController.m */; };
+		3F4F9D501EAFE6CE00A62ED1 /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F9D341EAFE6CE00A62ED1 /* threeViewController.m */; };
+		3F4F9D511EAFE6CE00A62ED1 /* threeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D351EAFE6CE00A62ED1 /* threeViewController.xib */; };
+		3F4F9D521EAFE6CE00A62ED1 /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F9D371EAFE6CE00A62ED1 /* twoViewController.m */; };
+		3F4F9D531EAFE6CE00A62ED1 /* twoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D381EAFE6CE00A62ED1 /* twoViewController.xib */; };
+		3F4F9D541EAFE6CE00A62ED1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F9D3A1EAFE6CE00A62ED1 /* ViewController.m */; };
+		3F4F9D551EAFE6CE00A62ED1 /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F9D3C1EAFE6CE00A62ED1 /* ZJViewController.m */; };
+		3F4F9D561EAFE6CE00A62ED1 /* ZJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F9D3D1EAFE6CE00A62ED1 /* ZJViewController.xib */; };
+		3F4F9D591EAFE83500A62ED1 /* VisualeffectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F9D581EAFE83500A62ED1 /* VisualeffectTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F2591E21EAC0C16005C52E4 /* oneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
-		3F2591E31EAC0C16005C52E4 /* oneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
-		3F2591E51EAC1991005C52E4 /* twoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
-		3F2591E61EAC1991005C52E4 /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
-		3F2591E81EAC19EC005C52E4 /* twoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = twoViewController.xib; sourceTree = "<group>"; };
+		3F4F9D191EAFE6CE00A62ED1 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
+		3F4F9D1A1EAFE6CE00A62ED1 /* 16DF03F45563B770589882029F78272C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16DF03F45563B770589882029F78272C.jpg; sourceTree = "<group>"; };
+		3F4F9D1B1EAFE6CE00A62ED1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F4F9D1C1EAFE6CE00A62ED1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F4F9D1D1EAFE6CE00A62ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F4F9D1F1EAFE6CE00A62ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F4F9D211EAFE6CE00A62ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F4F9D221EAFE6CE00A62ED1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4F9D231EAFE6CE00A62ED1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F4F9D241EAFE6CE00A62ED1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3F4F9D251EAFE6CE00A62ED1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3F4F9D261EAFE6CE00A62ED1 /* 笔(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔(1).png"; sourceTree = "<group>"; };
+		3F4F9D271EAFE6CE00A62ED1 /* 笔(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔(2).png"; sourceTree = "<group>"; };
+		3F4F9D281EAFE6CE00A62ED1 /* 笔(3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔(3).png"; sourceTree = "<group>"; };
+		3F4F9D291EAFE6CE00A62ED1 /* 笔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔.png"; sourceTree = "<group>"; };
+		3F4F9D2B1EAFE6CE00A62ED1 /* fourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourViewController.h; sourceTree = "<group>"; };
+		3F4F9D2C1EAFE6CE00A62ED1 /* fourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourViewController.m; sourceTree = "<group>"; };
+		3F4F9D2D1EAFE6CE00A62ED1 /* fourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fourViewController.xib; sourceTree = "<group>"; };
+		3F4F9D2E1EAFE6CE00A62ED1 /* maskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maskViewController.h; sourceTree = "<group>"; };
+		3F4F9D2F1EAFE6CE00A62ED1 /* maskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = maskViewController.m; sourceTree = "<group>"; };
+		3F4F9D301EAFE6CE00A62ED1 /* maskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = maskViewController.xib; sourceTree = "<group>"; };
+		3F4F9D311EAFE6CE00A62ED1 /* oneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
+		3F4F9D321EAFE6CE00A62ED1 /* oneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
+		3F4F9D331EAFE6CE00A62ED1 /* threeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeViewController.h; sourceTree = "<group>"; };
+		3F4F9D341EAFE6CE00A62ED1 /* threeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeViewController.m; sourceTree = "<group>"; };
+		3F4F9D351EAFE6CE00A62ED1 /* threeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = threeViewController.xib; sourceTree = "<group>"; };
+		3F4F9D361EAFE6CE00A62ED1 /* twoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
+		3F4F9D371EAFE6CE00A62ED1 /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
+		3F4F9D381EAFE6CE00A62ED1 /* twoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = twoViewController.xib; sourceTree = "<group>"; };
+		3F4F9D391EAFE6CE00A62ED1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F4F9D3A1EAFE6CE00A62ED1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F4F9D3B1EAFE6CE00A62ED1 /* ZJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
+		3F4F9D3C1EAFE6CE00A62ED1 /* ZJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
+		3F4F9D3D1EAFE6CE00A62ED1 /* ZJViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJViewController.xib; sourceTree = "<group>"; };
+		3F4F9D571EAFE83500A62ED1 /* VisualeffectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualeffectTableViewController.h; sourceTree = "<group>"; };
+		3F4F9D581EAFE83500A62ED1 /* VisualeffectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualeffectTableViewController.m; sourceTree = "<group>"; };
 		3F8455B81E9C0EA300DC97C4 /* 核心动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "核心动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F8455BC1E9C0EA400DC97C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F8455BE1E9C0EA400DC97C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3F8455BF1E9C0EA400DC97C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F8455C11E9C0EA400DC97C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F8455C21E9C0EA400DC97C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3F8455C51E9C0EA400DC97C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F8455C71E9C0EA400DC97C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F8455CA1E9C0EA400DC97C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F8455CC1E9C0EA400DC97C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F8455D21E9C111900DC97C4 /* 16DF03F45563B770589882029F78272C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16DF03F45563B770589882029F78272C.jpg; sourceTree = "<group>"; };
-		3FD888D11E9C246E00C86390 /* 笔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔.png"; sourceTree = "<group>"; };
-		3FD888D21E9C246E00C86390 /* 笔(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔(1).png"; sourceTree = "<group>"; };
-		3FD888D31E9C246E00C86390 /* 笔(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔(2).png"; sourceTree = "<group>"; };
-		3FD888D41E9C246E00C86390 /* 笔(3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔(3).png"; sourceTree = "<group>"; };
-		3FD888DC1E9C31C600C86390 /* ZJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
-		3FD888DD1E9C31C600C86390 /* ZJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
-		3FD888DE1E9C31C600C86390 /* ZJViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJViewController.xib; sourceTree = "<group>"; };
-		3FF85E251EACB19C004E26B4 /* threeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeViewController.h; sourceTree = "<group>"; };
-		3FF85E261EACB19C004E26B4 /* threeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeViewController.m; sourceTree = "<group>"; };
-		3FF85E271EACB19C004E26B4 /* threeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = threeViewController.xib; sourceTree = "<group>"; };
-		3FF85E2A1EACC81E004E26B4 /* fourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourViewController.h; sourceTree = "<group>"; };
-		3FF85E2B1EACC81E004E26B4 /* fourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourViewController.m; sourceTree = "<group>"; };
-		3FF85E2C1EACC81E004E26B4 /* fourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fourViewController.xib; sourceTree = "<group>"; };
-		3FF85E2F1EACCF0D004E26B4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		3FF85E301EACCF0D004E26B4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +86,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F4F9D181EAFE6CE00A62ED1 /* 核心动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F9D191EAFE6CE00A62ED1 /* 123.jpg */,
+				3F4F9D1A1EAFE6CE00A62ED1 /* 16DF03F45563B770589882029F78272C.jpg */,
+				3F4F9D1B1EAFE6CE00A62ED1 /* AppDelegate.h */,
+				3F4F9D1C1EAFE6CE00A62ED1 /* AppDelegate.m */,
+				3F4F9D1D1EAFE6CE00A62ED1 /* Assets.xcassets */,
+				3F4F9D1E1EAFE6CE00A62ED1 /* LaunchScreen.storyboard */,
+				3F4F9D201EAFE6CE00A62ED1 /* Main.storyboard */,
+				3F4F9D221EAFE6CE00A62ED1 /* Info.plist */,
+				3F4F9D231EAFE6CE00A62ED1 /* main.m */,
+				3F4F9D241EAFE6CE00A62ED1 /* TableViewController.h */,
+				3F4F9D251EAFE6CE00A62ED1 /* TableViewController.m */,
+				3F4F9D571EAFE83500A62ED1 /* VisualeffectTableViewController.h */,
+				3F4F9D581EAFE83500A62ED1 /* VisualeffectTableViewController.m */,
+				3F4F9D261EAFE6CE00A62ED1 /* 笔(1).png */,
+				3F4F9D271EAFE6CE00A62ED1 /* 笔(2).png */,
+				3F4F9D281EAFE6CE00A62ED1 /* 笔(3).png */,
+				3F4F9D291EAFE6CE00A62ED1 /* 笔.png */,
+				3F4F9D2A1EAFE6CE00A62ED1 /* 视觉效果 */,
+			);
+			path = "核心动画";
+			sourceTree = "<group>";
+		};
+		3F4F9D2A1EAFE6CE00A62ED1 /* 视觉效果 */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F9D2B1EAFE6CE00A62ED1 /* fourViewController.h */,
+				3F4F9D2C1EAFE6CE00A62ED1 /* fourViewController.m */,
+				3F4F9D2D1EAFE6CE00A62ED1 /* fourViewController.xib */,
+				3F4F9D2E1EAFE6CE00A62ED1 /* maskViewController.h */,
+				3F4F9D2F1EAFE6CE00A62ED1 /* maskViewController.m */,
+				3F4F9D301EAFE6CE00A62ED1 /* maskViewController.xib */,
+				3F4F9D311EAFE6CE00A62ED1 /* oneViewController.h */,
+				3F4F9D321EAFE6CE00A62ED1 /* oneViewController.m */,
+				3F4F9D331EAFE6CE00A62ED1 /* threeViewController.h */,
+				3F4F9D341EAFE6CE00A62ED1 /* threeViewController.m */,
+				3F4F9D351EAFE6CE00A62ED1 /* threeViewController.xib */,
+				3F4F9D361EAFE6CE00A62ED1 /* twoViewController.h */,
+				3F4F9D371EAFE6CE00A62ED1 /* twoViewController.m */,
+				3F4F9D381EAFE6CE00A62ED1 /* twoViewController.xib */,
+				3F4F9D391EAFE6CE00A62ED1 /* ViewController.h */,
+				3F4F9D3A1EAFE6CE00A62ED1 /* ViewController.m */,
+				3F4F9D3B1EAFE6CE00A62ED1 /* ZJViewController.h */,
+				3F4F9D3C1EAFE6CE00A62ED1 /* ZJViewController.m */,
+				3F4F9D3D1EAFE6CE00A62ED1 /* ZJViewController.xib */,
+			);
+			path = "视觉效果";
+			sourceTree = "<group>";
+		};
 		3F8455AF1E9C0EA300DC97C4 = {
 			isa = PBXGroup;
 			children = (
-				3F8455BA1E9C0EA300DC97C4 /* 核心动画 */,
+				3F4F9D181EAFE6CE00A62ED1 /* 核心动画 */,
 				3F8455B91E9C0EA300DC97C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,51 +151,6 @@
 				3F8455B81E9C0EA300DC97C4 /* 核心动画.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3F8455BA1E9C0EA300DC97C4 /* 核心动画 */ = {
-			isa = PBXGroup;
-			children = (
-				3F8455BE1E9C0EA400DC97C4 /* AppDelegate.h */,
-				3F8455BF1E9C0EA400DC97C4 /* AppDelegate.m */,
-				3FF85E2F1EACCF0D004E26B4 /* TableViewController.h */,
-				3FF85E301EACCF0D004E26B4 /* TableViewController.m */,
-				3F8455C11E9C0EA400DC97C4 /* ViewController.h */,
-				3F8455C21E9C0EA400DC97C4 /* ViewController.m */,
-				3FD888DC1E9C31C600C86390 /* ZJViewController.h */,
-				3FD888DD1E9C31C600C86390 /* ZJViewController.m */,
-				3F2591E21EAC0C16005C52E4 /* oneViewController.h */,
-				3F2591E31EAC0C16005C52E4 /* oneViewController.m */,
-				3F2591E51EAC1991005C52E4 /* twoViewController.h */,
-				3F2591E61EAC1991005C52E4 /* twoViewController.m */,
-				3FF85E251EACB19C004E26B4 /* threeViewController.h */,
-				3FF85E261EACB19C004E26B4 /* threeViewController.m */,
-				3FF85E271EACB19C004E26B4 /* threeViewController.xib */,
-				3FF85E2A1EACC81E004E26B4 /* fourViewController.h */,
-				3FF85E2B1EACC81E004E26B4 /* fourViewController.m */,
-				3FF85E2C1EACC81E004E26B4 /* fourViewController.xib */,
-				3F2591E81EAC19EC005C52E4 /* twoViewController.xib */,
-				3FD888DE1E9C31C600C86390 /* ZJViewController.xib */,
-				3FD888D11E9C246E00C86390 /* 笔.png */,
-				3FD888D21E9C246E00C86390 /* 笔(1).png */,
-				3FD888D31E9C246E00C86390 /* 笔(2).png */,
-				3FD888D41E9C246E00C86390 /* 笔(3).png */,
-				3F8455D21E9C111900DC97C4 /* 16DF03F45563B770589882029F78272C.jpg */,
-				3F8455C41E9C0EA400DC97C4 /* Main.storyboard */,
-				3F8455C71E9C0EA400DC97C4 /* Assets.xcassets */,
-				3F8455C91E9C0EA400DC97C4 /* LaunchScreen.storyboard */,
-				3F8455CC1E9C0EA400DC97C4 /* Info.plist */,
-				3F8455BB1E9C0EA400DC97C4 /* Supporting Files */,
-			);
-			path = "核心动画";
-			sourceTree = "<group>";
-		};
-		3F8455BB1E9C0EA400DC97C4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3F8455BC1E9C0EA400DC97C4 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,18 +211,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8455CB1E9C0EA400DC97C4 /* LaunchScreen.storyboard in Resources */,
-				3F8455C81E9C0EA400DC97C4 /* Assets.xcassets in Resources */,
-				3FD888D51E9C246E00C86390 /* 笔.png in Resources */,
-				3FD888D81E9C246E00C86390 /* 笔(3).png in Resources */,
-				3F8455D31E9C111900DC97C4 /* 16DF03F45563B770589882029F78272C.jpg in Resources */,
-				3FF85E291EACB19C004E26B4 /* threeViewController.xib in Resources */,
-				3FF85E2E1EACC81E004E26B4 /* fourViewController.xib in Resources */,
-				3F2591E91EAC19EC005C52E4 /* twoViewController.xib in Resources */,
-				3FD888D71E9C246E00C86390 /* 笔(2).png in Resources */,
-				3F8455C61E9C0EA400DC97C4 /* Main.storyboard in Resources */,
-				3FD888D61E9C246E00C86390 /* 笔(1).png in Resources */,
-				3FD888E01E9C31C600C86390 /* ZJViewController.xib in Resources */,
+				3F4F9D3F1EAFE6CE00A62ED1 /* 16DF03F45563B770589882029F78272C.jpg in Resources */,
+				3F4F9D431EAFE6CE00A62ED1 /* Main.storyboard in Resources */,
+				3F4F9D4A1EAFE6CE00A62ED1 /* 笔.png in Resources */,
+				3F4F9D4C1EAFE6CE00A62ED1 /* fourViewController.xib in Resources */,
+				3F4F9D491EAFE6CE00A62ED1 /* 笔(3).png in Resources */,
+				3F4F9D531EAFE6CE00A62ED1 /* twoViewController.xib in Resources */,
+				3F4F9D481EAFE6CE00A62ED1 /* 笔(2).png in Resources */,
+				3F4F9D441EAFE6CE00A62ED1 /* Info.plist in Resources */,
+				3F4F9D561EAFE6CE00A62ED1 /* ZJViewController.xib in Resources */,
+				3F4F9D421EAFE6CE00A62ED1 /* LaunchScreen.storyboard in Resources */,
+				3F4F9D511EAFE6CE00A62ED1 /* threeViewController.xib in Resources */,
+				3F4F9D411EAFE6CE00A62ED1 /* Assets.xcassets in Resources */,
+				3F4F9D471EAFE6CE00A62ED1 /* 笔(1).png in Resources */,
+				3F4F9D4E1EAFE6CE00A62ED1 /* maskViewController.xib in Resources */,
+				3F4F9D3E1EAFE6CE00A62ED1 /* 123.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,35 +236,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FD888DF1E9C31C600C86390 /* ZJViewController.m in Sources */,
-				3F8455C31E9C0EA400DC97C4 /* ViewController.m in Sources */,
-				3FF85E2D1EACC81E004E26B4 /* fourViewController.m in Sources */,
-				3FF85E281EACB19C004E26B4 /* threeViewController.m in Sources */,
-				3FF85E311EACCF0D004E26B4 /* TableViewController.m in Sources */,
-				3F2591E41EAC0C16005C52E4 /* oneViewController.m in Sources */,
-				3F8455C01E9C0EA400DC97C4 /* AppDelegate.m in Sources */,
-				3F8455BD1E9C0EA400DC97C4 /* main.m in Sources */,
-				3F2591E71EAC1991005C52E4 /* twoViewController.m in Sources */,
+				3F4F9D541EAFE6CE00A62ED1 /* ViewController.m in Sources */,
+				3F4F9D4D1EAFE6CE00A62ED1 /* maskViewController.m in Sources */,
+				3F4F9D451EAFE6CE00A62ED1 /* main.m in Sources */,
+				3F4F9D501EAFE6CE00A62ED1 /* threeViewController.m in Sources */,
+				3F4F9D551EAFE6CE00A62ED1 /* ZJViewController.m in Sources */,
+				3F4F9D591EAFE83500A62ED1 /* VisualeffectTableViewController.m in Sources */,
+				3F4F9D461EAFE6CE00A62ED1 /* TableViewController.m in Sources */,
+				3F4F9D4B1EAFE6CE00A62ED1 /* fourViewController.m in Sources */,
+				3F4F9D401EAFE6CE00A62ED1 /* AppDelegate.m in Sources */,
+				3F4F9D4F1EAFE6CE00A62ED1 /* oneViewController.m in Sources */,
+				3F4F9D521EAFE6CE00A62ED1 /* twoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F8455C41E9C0EA400DC97C4 /* Main.storyboard */ = {
+		3F4F9D1E1EAFE6CE00A62ED1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F8455C51E9C0EA400DC97C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3F8455C91E9C0EA400DC97C4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F8455CA1E9C0EA400DC97C4 /* Base */,
+				3F4F9D1F1EAFE6CE00A62ED1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F4F9D201EAFE6CE00A62ED1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F4F9D211EAFE6CE00A62ED1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -25,13 +25,15 @@
     //create a square shadow
     CGMutablePathRef squarePath = CGPathCreateMutable();
     CGPathAddRect(squarePath, NULL, self.layerView1.bounds);
-    self.layerView1.layer.shadowPath = squarePath; CGPathRelease(squarePath);
+    self.layerView1.layer.shadowPath = squarePath;
+    CGPathRelease(squarePath);
     
     //create a circular shadow
     CGMutablePathRef circlePath = CGPathCreateMutable();
     CGPathAddEllipseInRect(circlePath, NULL, self.layerView2.bounds);
     
-    self.layerView2.layer.shadowPath = circlePath; CGPathRelease(circlePath);
+    self.layerView2.layer.shadowPath = circlePath;
+    CGPathRelease(circlePath);
     // Do any additional setup after loading the view from its nib.
 }
 

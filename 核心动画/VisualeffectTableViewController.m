@@ -6,17 +6,23 @@
 //  Copyright © 2017年 zj. All rights reserved.
 //
 
-#import "TableViewController.h"
 #import "VisualeffectTableViewController.h"
-@interface TableViewController ()
+#import "ViewController.h"
+#import "oneViewController.h"
+#import "twoViewController.h"
+#import "threeViewController.h"
+#import "fourViewController.h"
+#import "maskViewController.h"
+#import "ZJViewController.h"
+@interface VisualeffectTableViewController ()
 @property (nonatomic ,strong)NSArray * allVCs;
 @end
 
-@implementation TableViewController
+@implementation VisualeffectTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"ios核心动画代码效果展示";
+    
     [self addChilds];
     
     // Uncomment the following line to preserve selection between presentations.
@@ -27,21 +33,19 @@
 }
 
 -(void)addChilds{
-    //ZJViewController *zj =[[ZJViewController alloc]initWithNibName:NSStringFromClass([ZJViewController class]) bundle:nil];
+    ZJViewController *zj =[[ZJViewController alloc]initWithNibName:NSStringFromClass([ZJViewController class]) bundle:nil];
     
-    //oneViewController * one = [oneViewController new];
+    oneViewController * one = [oneViewController new];
     
-    //twoViewController *two = [[twoViewController alloc]initWithNibName:NSStringFromClass([twoViewController class]) bundle:nil];
+    twoViewController *two = [[twoViewController alloc]initWithNibName:NSStringFromClass([twoViewController class]) bundle:nil];
     
-    //threeViewController * three = [[threeViewController alloc]initWithNibName:NSStringFromClass([threeViewController class]) bundle:nil];
+    threeViewController * three = [[threeViewController alloc]initWithNibName:NSStringFromClass([threeViewController class]) bundle:nil];
     
-    //fourViewController * four = [[fourViewController alloc]initWithNibName:NSStringFromClass([fourViewController class]) bundle:nil];
+    fourViewController * four = [[fourViewController alloc]initWithNibName:NSStringFromClass([fourViewController class]) bundle:nil];
     
-    //maskViewController * mask = [[maskViewController alloc]initWithNibName:NSStringFromClass([maskViewController class]) bundle:nil];
+    maskViewController * mask = [[maskViewController alloc]initWithNibName:NSStringFromClass([maskViewController class]) bundle:nil];
     
-    VisualeffectTableViewController *vi = [[VisualeffectTableViewController alloc]initWithStyle:UITableViewStylePlain];
-    
-    self.allVCs = @[vi];
+    self.allVCs = @[zj,one,two,three,four,mask];
     
     //[self addChildViewController:zj];
     //[self addChildViewController:one];

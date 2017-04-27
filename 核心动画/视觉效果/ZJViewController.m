@@ -21,6 +21,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"寄宿图";
     UIImage * image = [UIImage imageNamed:@"笔(3)"];
     //self.layerView.layer.contents = (__bridge id)image.CGImage; //center the image
     //self.layerView.layer.contentsGravity = kCAGravityCenter;
