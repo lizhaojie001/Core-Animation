@@ -14,6 +14,7 @@
 #import "fourViewController.h"
 #import "maskViewController.h"
 #import "ZJViewController.h"
+#import "DealimageViewController.h"
 @interface VisualeffectTableViewController ()
 @property (nonatomic ,strong)NSArray * allVCs;
 @end
@@ -45,7 +46,9 @@
     
     maskViewController * mask = [[maskViewController alloc]initWithNibName:NSStringFromClass([maskViewController class]) bundle:nil];
     
-    self.allVCs = @[zj,one,two,three,four,mask];
+    
+    DealImageViewController *dealImage =[[DealImageViewController alloc]init];
+    self.allVCs = @[zj,one,two,three,four,mask,dealImage];
     
     //[self addChildViewController:zj];
     //[self addChildViewController:one];
