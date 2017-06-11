@@ -103,7 +103,6 @@
 			children = (
 				3FF508721EBE2452002ECEA7 /* Assets.xcassets */,
 				3FF508731EBE2452002ECEA7 /* Other */,
-				3FF508801EBE2452002ECEA7 /* 拉伸过滤 */,
 				3FF508841EBE2452002ECEA7 /* 视觉效果 */,
 			);
 			path = "核心动画";
@@ -133,7 +132,8 @@
 				3FF508821EBE2452002ECEA7 /* DealImageViewController.m */,
 				3FF508831EBE2452002ECEA7 /* DealImageViewController.xib */,
 			);
-			path = "拉伸过滤";
+			name = "拉伸过滤";
+			path = "../拉伸过滤";
 			sourceTree = "<group>";
 		};
 		3FF508841EBE2452002ECEA7 /* 视觉效果 */ = {
@@ -158,6 +158,7 @@
 				3FF508951EBE2453002ECEA7 /* ZJViewController.h */,
 				3FF508961EBE2453002ECEA7 /* ZJViewController.m */,
 				3FF508971EBE2453002ECEA7 /* ZJViewController.xib */,
+				3FF508801EBE2452002ECEA7 /* 拉伸过滤 */,
 			);
 			path = "视觉效果";
 			sourceTree = "<group>";
