@@ -30,6 +30,8 @@
 		3FF508AB1EBE2453002ECEA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF508941EBE2453002ECEA7 /* ViewController.m */; };
 		3FF508AC1EBE2453002ECEA7 /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF508961EBE2453002ECEA7 /* ZJViewController.m */; };
 		3FF508AD1EBE2453002ECEA7 /* ZJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF508971EBE2453002ECEA7 /* ZJViewController.xib */; };
+		52D7D5DC1EED896C002E0413 /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D7D5DA1EED896C002E0413 /* AlphaViewController.m */; };
+		52D7D5DD1EED896C002E0413 /* AlphaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D7D5DB1EED896C002E0413 /* AlphaViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,9 @@
 		3FF508951EBE2453002ECEA7 /* ZJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
 		3FF508961EBE2453002ECEA7 /* ZJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
 		3FF508971EBE2453002ECEA7 /* ZJViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJViewController.xib; sourceTree = "<group>"; };
+		52D7D5D91EED896C002E0413 /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
+		52D7D5DA1EED896C002E0413 /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
+		52D7D5DB1EED896C002E0413 /* AlphaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlphaViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,9 +163,20 @@
 				3FF508951EBE2453002ECEA7 /* ZJViewController.h */,
 				3FF508961EBE2453002ECEA7 /* ZJViewController.m */,
 				3FF508971EBE2453002ECEA7 /* ZJViewController.xib */,
+				52D7D5D81EED865B002E0413 /* 透明组 */,
 				3FF508801EBE2452002ECEA7 /* 拉伸过滤 */,
 			);
 			path = "视觉效果";
+			sourceTree = "<group>";
+		};
+		52D7D5D81EED865B002E0413 /* 透明组 */ = {
+			isa = PBXGroup;
+			children = (
+				52D7D5D91EED896C002E0413 /* AlphaViewController.h */,
+				52D7D5DA1EED896C002E0413 /* AlphaViewController.m */,
+				52D7D5DB1EED896C002E0413 /* AlphaViewController.xib */,
+			);
+			path = "透明组";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF5089A1EBE2453002ECEA7 /* LaunchScreen.storyboard in Resources */,
+				52D7D5DD1EED896C002E0413 /* AlphaViewController.xib in Resources */,
 				3FF508981EBE2453002ECEA7 /* Assets.xcassets in Resources */,
 				3FF508A51EBE2453002ECEA7 /* maskViewController.xib in Resources */,
 				3FF508A81EBE2453002ECEA7 /* threeViewController.xib in Resources */,
@@ -246,6 +263,7 @@
 				3FF5089F1EBE2453002ECEA7 /* VisualeffectTableViewController.m in Sources */,
 				3FF5089D1EBE2453002ECEA7 /* main.m in Sources */,
 				3FF508A21EBE2453002ECEA7 /* fourViewController.m in Sources */,
+				52D7D5DC1EED896C002E0413 /* AlphaViewController.m in Sources */,
 				3FF5089E1EBE2453002ECEA7 /* TableViewController.m in Sources */,
 				3FF508991EBE2453002ECEA7 /* AppDelegate.m in Sources */,
 				3FF508AB1EBE2453002ECEA7 /* ViewController.m in Sources */,
