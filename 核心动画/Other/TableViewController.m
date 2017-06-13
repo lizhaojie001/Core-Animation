@@ -8,6 +8,7 @@
 
 #import "TableViewController.h"
 #import "VisualeffectTableViewController.h"
+#import "CGAffineTransformVC.h"
 @interface TableViewController ()
 @property (nonatomic ,strong)NSArray * allVCs;
 @end
@@ -38,10 +39,10 @@
     //fourViewController * four = [[fourViewController alloc]initWithNibName:NSStringFromClass([fourViewController class]) bundle:nil];
     
     //maskViewController * mask = [[maskViewController alloc]initWithNibName:NSStringFromClass([maskViewController class]) bundle:nil];
-    
+    CGAffineTransformVC* transform = [[CGAffineTransformVC alloc]initWithStyle:UITableViewStylePlain];
     VisualeffectTableViewController *vi = [[VisualeffectTableViewController alloc]initWithStyle:UITableViewStylePlain];
     
-    self.allVCs = @[vi];
+    self.allVCs = @[vi,transform];
     
     //[self addChildViewController:zj];
     //[self addChildViewController:one];
